@@ -2,17 +2,19 @@
 TODO
     add birdbeck dataset (will need to clean and re-org)
     follow along w/ norvig's tut
+    add regression tests
     make improvements
+        - can play around w/ diff. edit distances
+        - ...
     integrate spellr.ai into a chrome extension or sth
+        - add a pretty GUI or sth
     ??? 
     profit
 
 
-load-bearing parts
+=== load-bearing parts of Norvig's spell corrector
     1. Selection Mechanism: argmax
     2. Candidate Model: c \in candidates
     3. Language Model: P(c)
     4. Error Model: P(w|c)
-
-
 
