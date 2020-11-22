@@ -1,5 +1,4 @@
 # TODO
-
 01) add birdbeck dataset 
 02) find and add cleaner datasets (preferrably from an *official* dictionary)
 03) fix all TODOs
@@ -10,13 +9,10 @@
 
 
 # load-bearing parts
-01) Selection Mechanism: argmax
-
-02) Candidate Model: c \in candidates
-
-03) Language Model: P(c)
-
-04) Error Model: P(w|c)
+01) Selection Mechanism: $argmax$
+02) Candidate Model: $c \in candidates$
+03) Language Model: $P(c)$
+04) Error Model: $P(w|c)$
 
 
 
