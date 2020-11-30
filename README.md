@@ -1,14 +1,16 @@
 # TODO
-01) add birdbeck dataset 
-02) find and add cleaner datasets (preferrably from an *official* dictionary)
-03) fix all TODOs
-04) complete error model (this is the last part of the tut)
-05) integrate spellr.ai into a chrome extension or sth
-??) mess around with edit distances (Damerau–Levenshtein, LCS, hamming, etc)
-??) profit
+1. fix all TODOs
+2. test spellr.ai, improve the regression tests
+   (use the data in the files below)
+   1. https://norvig.com/spell-testset1.txt
+   2. https://norvig.com/spell-testset2.txt
+3. finish presentation
+4. integrate spellr.ai into a chrome extension, or an electron app, or \<??\>
 
 
-# load-bearing parts
+
+# model components
+
 01) Selection Mechanism: $argmax$
 02) Candidate Model: $c \in candidates$
 03) Language Model: $P(c)$
